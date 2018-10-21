@@ -8,23 +8,14 @@ from medium_scraper import *
 
 
 #ADD THE TAGS TO SCRAPE HERE
-tags = ["cryptocurrency","blockchain", "gadgets","startups",]
-
-#Potential TAGs
-"""
-
-,"blogging","design", "poetry","javascript","computer-science", "humor", "racism", ""
-"""
+tags = ["data-science"]
 
 
-#already scraped
-""" "marketing","life","software-engineering","web-design", "motivation", "love", "data-science", "machine-learning","artificial-intelligence","startup","politics","life-lessons","travel","entrepreneurship", "health","education","technology", "business","self-improvement","tech","programming","web-development","web-design","inspiration","productivity","personal-development","writing","leadership",
- "science", """
 #ADD THE DATES TO SCRAPE HERE
 yearstart=2017
-monthstart=8
+monthstart=10
 yearstop=2018
-monthstop=8
+monthstop=10
 
 #LOOPS THROUGH ALL LISTED-TAGS AND SCRAPES DATA OFF OF MEDIUM/TAG/archive
 #SAVES THE FILES TO /TAG_SCRAPES/ IN CSV FORMAT
